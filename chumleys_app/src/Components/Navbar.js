@@ -8,11 +8,13 @@ export default function Navbar(props) {
                 <img src={logo} className='logo' />
                 <p className='established'>Established 1922</p>
             </div>
-            <a href="#">Menu</a>
-            <a href="#">Our Story</a>
-            <a href="#">Hours &amp; Location</a>
-            <a href="#">Contact</a>
-            <button>Book a Table</button>
+            <div className='nav-links'>
+                <a href="#" className='nav-menu-button'>Menu</a>
+                <a href="#" className='nav-story-button'>Our Story</a>
+                <a href="#" className='nav-hours-button'>Hours &amp; Location</a>
+                <a href="#" className='nav-contact-button'>Contact</a>
+                <button className='book-table-button'>Book a Table</button>
+            </div>
 
         </div>
     )
