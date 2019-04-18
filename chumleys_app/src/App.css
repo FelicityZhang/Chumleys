@@ -1,6 +1,9 @@
 .App {
   text-align: center;
-  height: 2000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .View_of_Bar {
@@ -83,8 +86,147 @@
   border-radius: 3px;
   height: 53px;
   font-size: 21px;
-  font-family: Josefin Slab;
+  font-family: 'Josefin Slab';
   font-weight: bold;
   padding-left: 21.5px;
   padding-right: 20.5px;
 }
+
+.chef-block {
+  width: 1200px;
+  height: 900px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.chef-description {
+  width: 482px;
+  height: 900px;
+  background-image: linear-gradient(to bottom, #388051, #1a4928);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chef-image {
+  width: 718px;
+  height: 900px;
+}
+
+.chef-information{
+  width: 350px;
+  height: 555px;
+  background-color: #fbf8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chef-title {
+  width: 185px;
+  height: 62px;
+  font-family: 'Josefin Slab';
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 37px;
+  
+}
+
+.chef-content {
+  width: 313px;
+  height: 404px;
+  font-family: 'Josefin Slab';
+  font-size: 20px;
+  line-height: 1.2
+}
+
+.chef-executive {
+  margin: 0px;
+  padding: 0px;
+}
+.chef-name {
+  margin: 0px;
+  padding: 0px;
+}
+
+ .our-story-block {
+  width: 1200px;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  
+} 
+
+.our-story-description {
+  width: 481px;
+  height: 900px;
+  background-image: linear-gradient(to bottom, #388051, #1a4928);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-story-image {
+  width: 718px;
+  height: 900px;
+}
+
+.our-story-information{
+  width: 355px;
+  height: 763.8px;
+  border: solid 1px #979797;
+  text-align: left;
+  background-color: #fbf8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.our-story-title {
+  width: 199px;
+  height: 31px;
+  font-family: 'Josefin Slab';
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 28px;
+  
+}
+
+.our-story-content {
+  width: 313px;
+  height: 404px;
+  font-family: 'Josefin Slab';
+  font-size: 20px;
+  line-height: 1.2
+}
+
+.hem-quote { 
+    width: 988px;
+    padding-top: 80px;
+    padding-bottom:68px;
+}
+
+.hem-quote-content {
+ 
+    height: 86px;
+    font-family: 'Josefin Slab';
+    font-size: 36px;
+    letter-spacing: -0.9px;
+    text-align: center;
+}
+
+.hem-author {
+  height: 52px;
+  font-family: 'Sacramento';
+  font-size: 36px;
+  letter-spacing: normal;
+  text-align: right;
+}
+
+
+ 
