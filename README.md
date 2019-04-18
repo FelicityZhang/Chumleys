@@ -1,2 +1,2 @@
-# Chumley-s-
+# Chumleys
 This is a restaurant website
