@@ -153,3 +153,63 @@
 }
 
 
+
+
+/* jim */
+
+ .our-story-block {
+  width: 1200px;
+  height: 900px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  
+} 
+
+.our-story-description {
+  width: 481px;
+  height: 900px;
+  background-image: linear-gradient(to bottom, #388051, #1a4928);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-story-image {
+  width: 718px;
+  height: 900px;
+}
+
+.our-story-information{
+  width: 355px;
+  height: 763.8px;
+  border: solid 1px #979797;
+  text-align: left;
+  background-color: #fbf8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.our-story-title {
+  width: 199px;
+  height: 31px;
+  font-family: 'Josefin Slab';
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 28px;
+  
+}
+
+.our-story-content {
+  width: 313px;
+  height: 404px;
+  font-family: 'Josefin Slab';
+  font-size: 20px;
+  line-height: 1.2
+}
+
+
+ 
