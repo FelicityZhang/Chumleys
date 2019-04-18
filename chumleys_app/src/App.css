@@ -5,8 +5,22 @@
 .View_of_Bar {
   width: 100vw;
   height: 810px;
+  background-image: url(./images/View_of_Bar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.View_of_Bar img {
-  width: 100%;
+.navbar {
+  width: 100vw;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 251px;
+  height: 57px;
 }
