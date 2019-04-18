@@ -6,7 +6,6 @@ import HemQuote from './Components/HemQuote'
 import Location from './Components/Location'
 
 import './App.css';
-import Contact from './Contact'
 class App extends Component {
   render() {
     return (
