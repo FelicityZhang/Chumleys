@@ -43,7 +43,7 @@ export default class Dinner extends Component {
             </div>
         <div className="dinner-7 title">Cannoli</div>  
             <div className="dinner-7 description">
-                Chicken liver and foie gras mousse, 
+                Chicken liver and foie gras mousse,<br /> 
                 shallot jam, pistachio....$19
             </div>
         <div className="dinner-8 title">Risotto</div>  
