@@ -152,11 +152,6 @@
   padding: 0px;
 }
 
-
-
-
-/* jim */
-
  .our-story-block {
   width: 1200px;
   height: 900px;
@@ -210,13 +205,10 @@
   line-height: 1.2
 }
 
-.hem-quote {
-  
+.hem-quote { 
     width: 988px;
     padding-top: 80px;
     padding-bottom:68px;
-
-  
 }
 
 .hem-quote-content {
