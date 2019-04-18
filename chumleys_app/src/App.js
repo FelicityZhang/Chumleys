@@ -3,8 +3,9 @@ import Header from './Components/Header'
 import ChefBlock from './Components/ChefBlock'
 import OurStory from './Components/OurStory'
 import HemQuote from './Components/HemQuote'
-import './App.css';
+import Location from './Components/Location'
 
+import './App.css';
 class App extends Component {
   render() {
     return (
@@ -13,6 +14,8 @@ class App extends Component {
         <ChefBlock />
         <HemQuote />
         <OurStory />
+        <Location />
+
 
 
       </div>
