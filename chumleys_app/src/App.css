@@ -1,6 +1,10 @@
 .App {
   text-align: center;
-  height: 2000px;
+  /* height: 2000px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .View_of_Bar {
@@ -83,8 +87,15 @@
   border-radius: 3px;
   height: 53px;
   font-size: 21px;
-  font-family: Josefin Slab;
+  font-family: 'Josefin Slab';
   font-weight: bold;
   padding-left: 21.5px;
   padding-right: 20.5px;
+}
+
+.chef-block {
+  width: 1200px;
+  height: 900px;
+  background-color: green;
+  
 }
