@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 2000px;
 }
 
 .View_of_Bar {
@@ -14,6 +15,7 @@
   width: 100vw;
   height: 100px;
   background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -24,3 +26,20 @@
   width: 251px;
   height: 57px;
 }
+
+.nav-img-year {
+  padding-top: 9px;
+  padding-left: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.established {
+  color: #dabb6a;
+  font-family: Helvetica;
+  font-size: 17px;
+}
+
+
