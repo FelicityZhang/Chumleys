@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Brunch extends Component {
   render() {
     return (
-        <div className="brunch-menu render">
+        <div className="brunch-menu-render">
         <div className="menu-executive-chef">
         Executive Chef: Heather Pelletier
         </div>
