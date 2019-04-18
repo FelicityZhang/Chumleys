@@ -325,3 +325,147 @@
 
 
 
+
+
+
+.contactpage-block {
+  width: 1200px;
+  height: 900px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;  
+}
+
+.contactpage-image {
+  width: 718px;
+  height: 900px;
+}
+
+.contact-holder {
+  margin-left: -1px;
+  width: 482px;
+  height: 900px;
+  background-image: linear-gradient(to bottom, #388051, #1a4928);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box{
+  width: 355px;
+  height: 534px;
+  order: solid 1px #979797;
+  background-color: #fbf8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-header {
+  margin-top: 26px;
+  margin-bottom: 0px;
+  width: 185px;
+  height: 62px;
+  font-family: 'Josefin Slab';
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  /* padding-top: 37px;  */
+}
+
+.contact-content {
+  margin-top: 0px;
+  text-align: left;
+  width: 286px;
+  height: 154px;
+  font-family: 'Josefin Slab';
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.1px;
+  color: var(--black);
+
+}
+
+.media-contact {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: 'Josefin Slab';
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.1px;
+  color: var(--black);
+
+}
+
+
+.allelse-contact {
+  margin-top: 20px;
+  text-align: left;
+
+  font-family: 'Josefin Slab';
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.1px;
+  color: var(--black);
+
+}
+
+
+.Phone{
+  font-weight: bold;
+  width: 313px;
+  height: 404px;
+  font-family: 'Josefin Slab';
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+
+.input1 {
+  padding-left: 12px;
+  padding-bottom: -10px;
+  /* padding-left: 9px 0px 9px 12px; */
+  padding-top: 9px;
+  /* padding-bottom: 9px; */
+  width: 286px;
+  height: 34px;
+  border-radius: 2px;
+  border: solid 1px #e48400;
+  font-size: 12px;
+  margin: 8px 0;
+}
+
+.input2 {
+  padding-left: 12px;
+  padding-top: 9px;
+  width: 286px;
+  height: 86px;
+  border-radius: 2px;
+  border: solid 1px #e48400;
+  font-size: 12px;
+
+}
+
+.contact-button {
+  width: 90px;
+  height: 32px;
+  border-radius: 3px;
+  background-color: #e48400;
+  padding-bottom: 34px;
+  font-size: 15px;
+  color: #fbf8f0;
+  margin-top: 21px;
+  line-height: -75px;
+  padding-bottom: 5px;
+}
+
+
+
+/* .name {
+  width: 34px;
+  height: 16px;
+} */
+
+
+
