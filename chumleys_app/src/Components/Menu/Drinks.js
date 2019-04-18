@@ -62,7 +62,7 @@ export default class Drinks extends Component {
                     bourbon or gin,<br />
                     lime oleo, lime, soda
                 </div>
-            <form action="../../images/Chumleys-Beverage-Menu-11.21.18.pdf">
+            <form action="../../images/Chumleys-Beverage-Menu-11.21.18.pdf" target="_blank">
                 <button className="drinks-button" type="submit" value="Go to Drinks">Full Drinks Menu</button>
             </form>
         </div>
