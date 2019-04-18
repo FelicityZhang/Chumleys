@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Components/Header'
 import ChefBlock from './Components/ChefBlock'
 import OurStory from './Components/OurStory'
+import HemQuote from './Components/HemQuote'
 import './App.css';
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <ChefBlock />
+        <HemQuote />
         <OurStory />
 
 

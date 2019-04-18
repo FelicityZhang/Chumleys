@@ -160,7 +160,6 @@
  .our-story-block {
   width: 1200px;
   height: 900px;
-  padding-top: 30px;
   display: flex;
   flex-direction: row;
   
@@ -209,6 +208,32 @@
   font-family: 'Josefin Slab';
   font-size: 20px;
   line-height: 1.2
+}
+
+.hem-quote {
+  
+    width: 988px;
+    padding-top: 80px;
+    padding-bottom:68px;
+
+  
+}
+
+.hem-quote-content {
+ 
+    height: 86px;
+    font-family: 'Josefin Slab';
+    font-size: 36px;
+    letter-spacing: -0.9px;
+    text-align: center;
+}
+
+.hem-author {
+  height: 52px;
+  font-family: 'Sacramento';
+  font-size: 36px;
+  letter-spacing: normal;
+  text-align: right;
 }
 
 
