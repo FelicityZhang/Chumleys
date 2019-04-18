@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Header from './Components/Header'
 import './App.css';
-import Contact from './Contact'
+import Location from './Components/Location'
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
-        <Contact />
+        <Location />
       </div>
     );
   }

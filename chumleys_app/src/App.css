@@ -79,7 +79,7 @@
   width: 166px;
   color: white;
   background-color: transparent;
-  border: 2px solid #e48400;
+  border: 2px solid #8d6835;
   border-radius: 3px;
   height: 53px;
   font-size: 21px;
@@ -87,4 +87,100 @@
   font-weight: bold;
   padding-left: 21.5px;
   padding-right: 20.5px;
+}
+
+
+.hourLocation-container{
+  width: 1200px;
+  height:900px;
+  align-items: center;
+  justify-content: center;
+}
+.contact-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width:1200px;
+  height:900px;
+}
+
+
+.Rectangle-Copy {
+  width: 482px;
+  height: 900px;
+  background-image: linear-gradient(to bottom,#388051,#1a4928);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapInfo-container{
+  height:275px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Dinner-Monday-Satu {
+  width: 174px;
+  height: 144px;
+  font-family: "Josefin Slab";
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+ .text-style-1 {
+  font-weight: bold;
+}
+
+
+.Booth {
+  width: 718px;
+  height: 900px;
+}
+
+.Text-Box {
+  width: 350px;
+  height: 625px;
+  background-color: #fbf8f0;
+  /* margin: 138px 66px 137px 66px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hoursContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Hours-Location {
+  width: 192px;
+  height: 31px;
+  font-family: "Josefin Slab";
+  font-size: 26px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black);
+
+}
+
+.hours{
+  margin:0;
 }
