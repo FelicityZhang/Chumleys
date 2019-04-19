@@ -10,9 +10,9 @@ export default function Navbar(props) {
             </div>
             <div className='nav-links'>
                 <a href="#" className='nav-menu-button'>Menu</a>
-                <a href="#" className='nav-story-button'>Our Story</a>
-                <a href="#" className='nav-hours-button'>Hours &amp; Location</a>
-                <a href="#" className='nav-contact-button'>Contact</a>
+                <a href="#ourstory" className='nav-story-button'>Our Story</a>
+                <a href="#hourslocation" className='nav-hours-button'>Hours &amp; Location</a>
+                <a href="#contactpage" className='nav-contact-button'>Contact</a>
                 <button className='book-table-button'>Book a Table</button>
             </div>
 
