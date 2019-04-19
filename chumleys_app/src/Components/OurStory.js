@@ -3,7 +3,7 @@ import JimImage from '../images/Jim.png'
 
 export default function OurStory(props) {
     return (
-        <div className='our-story-block'>
+        <div className='our-story-block' id="ourstory">
             <div className='our-story-image'>
                 <img src={JimImage} />
             </div>
