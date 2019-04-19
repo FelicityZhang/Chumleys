@@ -122,6 +122,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 .chef-block {
   width: 1200px;
@@ -178,6 +179,10 @@ html {
  
  .Booth-mobile{
  display:none;
+ position: relative;
+ top: -355px;
+ position: relative;
+ bottom: -1200px;
  }
 
 .Text-Box {
@@ -257,6 +262,7 @@ html {
 
 .chef-large-image {
   display: block;
+
 }
 
 .chef-mobile-image {
@@ -269,6 +275,7 @@ html {
 
 .our-story-mobile-img {
   display: none;
+
 }
 
 .chef-information{
@@ -323,6 +330,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .hoursContainer{
@@ -426,6 +434,7 @@ html {
 .contactpage-image {
   width: 718px;
   height: 900px;
+
 }
 
 .mobile-fireplace {
@@ -441,6 +450,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* position: relative;
+  top: 31px; */
+
 }
 
 .contact-box{
@@ -680,6 +692,10 @@ justify-content:space-between;
 
 @media screen and (max-width: 375px) {
 
+.Rectangle-Copy{
+  position: relative;
+  top: -350px;
+}
   .App {
     width: 100%;
   }
@@ -694,6 +710,8 @@ justify-content:space-between;
   .our-story-description{
     width: 375px;
   height: 753px;
+  position: relative;
+  top: -220px;
   }
 
  .our-story-information {
@@ -805,6 +823,8 @@ justify-content:space-between;
 .chef-description {
   width: 100%;
   height: 631px;
+  position: relative;
+  top: 80px;
 }
 
 .chef-image {
@@ -828,6 +848,8 @@ justify-content:space-between;
 
 .our-story-mobile-img {
   display: block;
+  position: relative;
+  top: -250px;
 }
 
 
@@ -882,7 +904,10 @@ justify-content:space-between;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+    position: relative;
+    top: 60px;
+}
+  
   
   .contact-box{
     width: 350px;
