@@ -7,6 +7,9 @@ export default class Brunch extends Component {
         <div className="menu-executive-chef">
         Executive Chef: Heather Pelletier
         </div>
+        <div className="row">
+            <div className="brunch-column-1"></div>
+            <div className="brunch-column-2">
         <div className="brunch-1 title">Not Avocado Toast</div>
             <div className="brunch-1 description">
                 Banana Pistachio <br />
@@ -39,6 +42,8 @@ export default class Brunch extends Component {
             <div className="brunch-6 description">
                 Seasonal, side salad.....$15
             </div>
+            </div>
+            <div className="brunch-column-3">
         <div className="brunch-6 title">Acorn Squash</div>
             <div className="brunch-6 description">
                 Mushrooms, salsa verde,<br />
@@ -69,7 +74,9 @@ export default class Brunch extends Component {
                     House-cured Pancetta....$9<br /> 
                     House-cured salmon....$9<br />
                     Beef fat fries....$10
-                </div>       
+                </div>     
+                </div>  
+        </div>
         </div>
     )
   }

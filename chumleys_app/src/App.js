@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import Menu from './Components/Menu/Menu.js'
 import Header from './Components/Header'
 import ChefBlock from './Components/ChefBlock'
 import ContactPage from './Components/ContactPage'
@@ -9,6 +11,10 @@ import ScottQuote from './Components/ScottQuote'
 import JackQuote from './Components/JackQuote'
 import Location from './Components/Location'
 import HamburgerMenu from './Components/HamburgerMenu'
+import Footer from './Components/Footer'
+import EmptyQuote from './Components/EmptyQuote'
+
+
 
 import './App.css';
 class App extends Component {
@@ -38,10 +44,12 @@ class App extends Component {
     return (
       <div className="App">
 
+
         <div className={this.state.menuActive ? 'hamburger-menu-on' : 'hamburger-menu-off'}>
           <HamburgerMenu closeMenu={this.closeMenu} />
         </div>
         <Header openMenu={this.openMenu} />
+        <Menu />
         <ChefBlock />
         <HemQuote />
         <OurStory />
@@ -49,8 +57,17 @@ class App extends Component {
         <Location />
         <JackQuote />
         <ContactPage />
+
+        <EmptyQuote />
+        <Footer />
+
+
+
+      
+      
+
       </div>
-    );
+    )
   }
 }
 

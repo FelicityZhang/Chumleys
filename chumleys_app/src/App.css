@@ -108,6 +108,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   width:1200px;
   height:900px;
 }
@@ -139,7 +140,7 @@ html {
   justify-content: center;
   align-items: center;
 }
-
+ 
 .mapInfo-container{
   height:275px;
   width: 350px;
@@ -182,6 +183,59 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  .hourLocation-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .contact-main{
+    width: 375px;
+    height: 682px;
+  }
+
+  .Rectangle-Copy{
+    width:375px;
+    height: 682px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .Text-Box{
+    height: 617px;
+    width: 350px;
+  }
+
+  .mapInfo-container{
+    width:350px;
+    height:267px;
+  }
+
+  .Rectangle-Copy-2{
+    width: 350px;
+    height: 350px;
+  }
+
+  .Hours-Location{
+    width: 192px;
+    height: 31px;
+  }
+
+  .Dinner-Monday-Satu{
+    width: 174px;
+    height: 144px;
+  }
+
+  .Booth {
+    width: 375px;
+    height: 533px;
+  }
 }
 
   .chef-image {
@@ -354,6 +408,11 @@ html {
   height: 900px;
 }
 
+.mobile-fireplace {
+  display: none;
+}
+
+
 .contact-holder {
   margin-left: -1px;
   width: 482px;
@@ -398,6 +457,12 @@ html {
   color: var(--black);
 
 }
+
+.mobile-contact-text {
+  display: none;
+  margin-top: -15px;
+}
+
 
 .media-contact {
   margin-top: 0px;
@@ -649,4 +714,244 @@ html {
 
 }
 
+.Dimmer-Box {
+  width: 1440px;
+  height: 75px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+}
 
+.DimmerContainer{
+  width:700px;
+  height: 75px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.-Bedford-St-New-Y {
+  width: 336px;
+  height: 28px;
+  font-family: 'Josefin Slab';
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.phone{
+  width: 135px;
+  height: 28px;
+  font-family: 'Josefin Slab';
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Shape {
+  width: 34.8px;
+  height: 34.8px;
+  background-color: var(--white);
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+  .contactpage-block {
+    width: 375px;
+    height: 1450px;
+    margin-top: -241px;
+    display: flex;
+    flex-direction: column-reverse;
+    /* align-items: flex-start; */
+    /* flex-wrap: wrap;  */
+  }
+
+  .displayQuote{
+    display:none;
+  }
+ 
+  
+  .contact-header {
+    margin-top: 26px;
+    padding-bottom: -30px;
+    width: 185px;
+    height: 62px;
+    font-family: 'Josefin Slab';
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    /* padding-top: 37px;  */
+  }
+
+
+  .contactpage-image {
+    width: 375px;
+    height: 433px;
+    flex-basis: 150%;
+    /* display: none; */
+
+  }
+  
+  .mobile-fireplace {
+    display: none;
+    max-width: 375px;
+    height: 533px;
+    }
+  
+  
+  .contact-holder {
+    /* margin-left: 412px; */
+    width: 375px;
+    height: 803px;
+    background-image: linear-gradient(to bottom, #388051, #1a4928);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-box{
+    width: 350px;
+  height: 726px;
+    order: solid 1px #979797;
+    background-color: #fbf8f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-header {
+    margin-top: 26px;
+    margin-bottom: 0px;
+    width: 185px;
+    height: 62px;
+    font-family: 'Josefin Slab';
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    /* padding-top: 37px;  */
+  }
+  
+  .contact-content {
+    margin-top: 0px;
+    text-align: left;
+    width: 286px;
+    height: 154px;
+    font-family: 'Josefin Slab';
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.1px;
+    color: var(--black);
+  
+  }
+
+  .desktop-contact-text{
+    display: none;
+  }
+
+  .mobile-contact-text {
+    display: block;
+  }
+  
+  .media-contact {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'Josefin Slab';
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.1px;
+    color: var(--black);
+  
+  }
+  
+  
+  .allelse-contact {
+    margin-top: 20px;
+    text-align: left;
+  
+    font-family: 'Josefin Slab';
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.1px;
+    color: var(--black);
+  
+  }
+  
+  
+  .Phone{
+    font-weight: bold;
+    width: 313px;
+    height: 404px;
+    font-family: 'Josefin Slab';
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  
+  
+  .input1 {
+    padding-left: 12px;
+    padding-bottom: -10px;
+    /* padding-left: 9px 0px 9px 12px; */
+    padding-top: 9px;
+    /* padding-bottom: 9px; */
+    width: 286px;
+    height: 34px;
+    border-radius: 2px;
+    border: solid 1px #e48400;
+    font-size: 12px;
+    margin: 8px 0;
+  }
+  
+  .input2 {
+    padding-left: 12px;
+    padding-top: 9px;
+    width: 286px;
+    height: 86px;
+    border-radius: 2px;
+    border: solid 1px #e48400;
+    font-size: 12px;
+  
+  }
+  
+  .contact-button {
+    width: 90px;
+    height: 32px;
+    border-radius: 3px;
+    background-color: #e48400;
+    padding-bottom: 34px;
+    font-size: 15px;
+    color: #fbf8f0;
+    margin-top: 21px;
+    line-height: -75px;
+    padding-bottom: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+.socialMedia{
+  width:144.4px;
+  height:34.8px;
+  display:flex;
+justify-content:space-between;
+}
