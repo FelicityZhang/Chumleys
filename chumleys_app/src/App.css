@@ -465,12 +465,47 @@ html {
   padding-bottom: 5px;
 }
 
+@media screen and (max-width: 375px) {
+
+.View_of_Bar {
+  width: 375px;
+  height: 307px;
+  background-image: url(./images/Mobile_View_of_Bar.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 374px;
+    height: 46px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  width: 137.4px;
+  height: 31px;
+}
+
+.nav-img-year {
+  padding-top: 9px;
+  padding-left: 0px;
+}
+
+.established {
+  display: none;
+}
+
+.nav-links {
+  display: none;
+}
 
 
-/* .name {
-  width: 34px;
-  height: 16px;
-} */
 
+
+
+
+
+
+}
 
 

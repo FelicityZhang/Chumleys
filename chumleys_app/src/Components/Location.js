@@ -16,12 +16,12 @@ export default class Contact extends Component {
                                 <div className="hoursContainer Dinner-Monday-Satu">
                                     <div>
                                         <div className=' text-style-1 '>Dinner</div>
-                                        <div classNanme='hours'>Monday - Saturday</div>
-                                        <div classNanme='hours'>5:30pm - 12am</div>
+                                        <div className='hours'>Monday - Saturday</div>
+                                        <div className='hours'>5:30pm - 12am</div>
                                     </div>
                                     <div >
                                         <div className=' text-style-1 '>Sunday Brunch</div>
-                                        <div classNanme='hours'>11:30pm - 3:30pm</div>
+                                        <div className='hours'>11:30pm - 3:30pm</div>
                                     </div>
                                 </div>
                             </div>
