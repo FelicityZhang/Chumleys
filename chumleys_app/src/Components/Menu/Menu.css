@@ -1,0 +1,185 @@
+.menu-component{
+    width: 1440px;
+    height: 1400px;
+    background-color: #fbf9f1;
+    color: black;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+}
+.row{
+    display:flex;
+    width: 1000px;
+}
+
+.column-1{
+    position: relative;
+    margin-left: 200px;
+}
+
+.column-2{
+    flex:50%;
+    margin-right: 10px;
+}
+.column-3{
+    flex:50%;
+    margin-left: 10px;
+}
+
+.brunch-column-1{
+    position: relative;
+    margin-left: 400px;
+}
+
+.brunch-column-2{
+    flex:50%;
+    margin-right: 10px;
+}
+.brunch-column-3{
+    flex:50%;
+    margin-left: 10px;
+}
+
+.dinner-column-1{
+    position: relative;
+    margin-left: 400px;
+}
+
+.dinner-column-2{
+    flex:50%;
+    margin-right: 10px;
+}
+.dinner-column-3{
+    flex:50%;
+    margin-left: 10px;
+}
+
+.menus {
+    position: relative;
+    top: 99px;
+    width: 129px;
+    height: 53px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 45px;
+    font-weight: 600;
+    display: inline-block;
+    color: #393835;
+  }
+
+  button {
+    position: relative;
+    top: 120px;
+    width: 166px;
+    height: 53px;
+    border-radius: 3px;
+    padding: 0;
+    border: 0;
+    margin: 10px;
+    display: inline-block;
+  }
+
+  button.true {
+    opacity: 1;
+    background-color: #1a4928;
+    font-family: 'Josefin Slab', serif;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fffcf5;
+  }
+
+  button.false {
+    opacity: 0.6;
+    background-color: #1a4928; 
+    font-family: 'Josefin Slab', serif;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fffcf5;
+  }
+
+  .menu-executive-chef {
+    position: relative;
+    top: 140px;
+    width: 404px;
+    height: 52px;
+    font-family: 'Sacramento', serif;
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #393835;
+    display: inline-block;
+  }
+
+  .cocktails{
+        position: relative;
+        top: 150px;
+        left:0;
+        width: 495px;
+        font-family: 'Sacramento', serif;
+        font-size: 35px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #393835;
+        margin-bottom: 40px;
+        display: inline-block;
+      }
+  
+
+  .column-title {
+    position: relative;
+    top: 150px;
+    display: inline-block;
+    width: 495px;
+    font-family: 'Sacramento', serif;
+    font-size: 35px;
+    color: #393835;
+    margin-bottom: 40px
+  }
+
+  .title {
+    position: relative;
+    top: 150px;
+    font-family: 'Sacramento', serif;
+    font-size: 35px;
+    color: #393835;
+    margin-bottom: 10px
+  }
+
+  .description {
+    position: relative;
+    top: 150px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 24px;
+    display: inline-block;
+    color: #393835;
+    margin-bottom: 30px;
+  }
+
+  .drinks-button{
+    position: relative;
+    top: 150px;
+    width: 234px;
+    height: 53px;
+    border-radius: 3px;
+    background-color: #e48400;
+    font-family: JosefinSlab;
+    font-size: 26px;
+    font-weight: 600;
+    color: #444340;
+    display: inline-block;
+  }
+  

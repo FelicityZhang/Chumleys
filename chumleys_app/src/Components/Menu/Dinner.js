@@ -7,6 +7,9 @@ export default class Dinner extends Component {
         <div className="menu-executive-chef">
         Executive Chef: Heather Pelletier
         </div>
+        <div className="row">
+            <div className="dinner-column-1"></div>
+            <div className="dinner-column-2">
         <div className="dinner-1 title">East Coast Oysters</div>
             <div className="dinner-1 description">
                 Half Dozen....$22 <br />
@@ -46,6 +49,8 @@ export default class Dinner extends Component {
                 Chicken liver and foie gras mousse,<br /> 
                 shallot jam, pistachio....$19
             </div>
+        </div>
+        <div className="dinner-column-3">  
         <div className="dinner-8 title">Risotto</div>  
             <div className="dinner-7 description">
                 Chestnut, stracciatella<br /> 
@@ -81,7 +86,9 @@ export default class Dinner extends Component {
                     Whole roasted Romanesco....$12<br />
                     “Creamed” Brussels....$10<br />
                     Beef fat fries....$10
-                </div>      
+                </div>  
+                </div> 
+                </div>     
         </div>
     )
   }
