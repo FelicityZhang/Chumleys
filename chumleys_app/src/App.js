@@ -16,12 +16,12 @@ class App extends Component {
       <div className="App">
         <Header />
         <ChefBlock />
-        <HemQuote />
-        <OurStory />
-        <ScottQuote />
-        <Location />
-        <JackQuote />
-        <ContactPage />
+        {/* <HemQuote /> */}
+        {/* <OurStory /> */}
+        {/* <ScottQuote /> */}
+        {/* <Location /> */}
+        {/* <JackQuote /> */}
+        {/* <ContactPage /> */}
 
 
 

@@ -5,6 +5,7 @@ export default function Header(props) {
     return (
         <div className='View_of_Bar'>
             <Navbar />
+
         </div>
     )
 }
