@@ -7,6 +7,7 @@ export default function HamburgerMenu(props) {
             <div className='exit' onClick={props.closeMenu}>
                 <img src={xicon} />
             </div>
+
             <div className='hamburger-menu-links'>
                 <a href='#'>Book a Table</a>
                 <a href='#'>Menu</a>
