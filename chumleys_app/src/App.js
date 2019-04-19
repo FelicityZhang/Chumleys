@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import Menu from './Components/Menu/Menu.js'
 import Header from './Components/Header'
 import ChefBlock from './Components/ChefBlock'
 import ContactPage from './Components/ContactPage'
@@ -23,11 +25,11 @@ class App extends Component {
         <Location />
         <JackQuote />
         <ContactPage />
-
-
-
+      
+      
+      
       </div>
-    );
+    )
   }
 }
 
