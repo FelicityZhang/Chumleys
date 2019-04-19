@@ -59,12 +59,12 @@ class App extends Component {
         <ContactPage />
 
         <EmptyQuote />
-        <Footer />
+        {/* <Footer /> */}
 
 
 
-      
-      
+
+
 
       </div>
     )

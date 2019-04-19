@@ -251,6 +251,14 @@ html {
   display: none;
 }
 
+.our-story-large-img {
+  display: block;
+}
+
+.our-story-mobile-img {
+  display: none;
+}
+
 .chef-information{
   width: 350px;
   height: 555px;
@@ -595,11 +603,111 @@ html {
   margin: 0;
 }
 
+.Dimmer-Box {
+  width: 1440px;
+  height: 75px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.DimmerContainer{
+  width:700px;
+  height: 75px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.-Bedford-St-New-Y {
+  width: 336px;
+  height: 28px;
+  font-family: 'Josefin Slab';
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.phone{
+  width: 135px;
+  height: 28px;
+  font-family: 'Josefin Slab';
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Shape {
+  width: 34.8px;
+  height: 34.8px;
+  background-color: var(--white);
+}
+
+.socialMedia{
+  width:144.4px;
+  height:34.8px;
+  display:flex;
+justify-content:space-between;
+}
+
+
+
+
 @media screen and (max-width: 375px) {
 
   .App {
     width: 100%;
   }
+
+  .our-story-block {
+    width: 375px;
+    height: 1290px;
+    display: flex;
+    flex-direction: column-reverse;
+  } 
+
+  .our-story-description{
+    width: 375px;
+  height: 753px;
+  }
+
+ .our-story-information {
+  width: 350px;
+  height: 681px;
+  
+ }
+
+ .our-story-image {
+  width: 375px;
+  height: 533px;
+}
+
+.our-story-content{
+  width: 332px;
+  height: 688px;
+  font-family: 'Josefin Slab';
+  font-size: 20px;
+  letter-spacing: -0.4px;
+}
+
+.hem-quote { 
+  width: 375px;
+  padding-top: 80px;
+  padding-bottom:68px;
+}
 
   .hamburger-menu-on{
     z-index: 2;
@@ -673,6 +781,7 @@ html {
 
 .chef-block {
   width: 100%;
+  height: auto;
   flex-direction: column;
 }
 
@@ -704,73 +813,15 @@ html {
   width: 20px;
 }
 
-
-
-
-
-
-
-
-
+.our-story-large-img {
+  display: none;
 }
 
-.Dimmer-Box {
-  width: 1440px;
-  height: 75px;
-  background-color: rgba(0, 0, 0, 0.5);
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
- 
-}
-
-.DimmerContainer{
-  width:700px;
-  height: 75px;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.-Bedford-St-New-Y {
-  width: 336px;
-  height: 28px;
-  font-family: 'Josefin Slab';
-  font-size: 22px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
-}
-
-.phone{
-  width: 135px;
-  height: 28px;
-  font-family: 'Josefin Slab';
-  font-size: 22px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
-}
-
-.Shape {
-  width: 34.8px;
-  height: 34.8px;
-  background-color: var(--white);
+.our-story-mobile-img {
+  display: block;
 }
 
 
-
-
-@media screen and (max-width: 375px) {
   .contactpage-block {
     width: 375px;
     height: 1450px;
@@ -949,9 +1000,4 @@ html {
 
 
 
-.socialMedia{
-  width:144.4px;
-  height:34.8px;
-  display:flex;
-justify-content:space-between;
-}
+
