@@ -466,13 +466,15 @@ html {
 .contact-button {
   width: 90px;
   height: 32px;
+  margin-left: -13px;
   border-radius: 3px;
+  /* margin-top: -30px; */
   background-color: #e48400;
-  padding-bottom: 34px;
+  /* padding-bottom: 34px; */
   font-size: 15px;
   color: #fbf8f0;
   margin-top: 21px;
-  line-height: -75px;
+  /* line-height: -75px; */
   padding-bottom: 5px;
 }
 
@@ -589,12 +591,13 @@ html {
   
   .contact-box{
     width: 350px;
-  height: 726px;
+    height: 726px;
     order: solid 1px #979797;
     background-color: #fbf8f0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: -150px;
   }
   
   .contact-header {
