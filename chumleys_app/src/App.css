@@ -540,7 +540,7 @@ html {
 
 @media screen and (max-width: 375px) {
   .contactpage-block {
-    /* width: 1200px; */
+    width: 375px;
     height: 1450px;
     margin-top: -241px;
     display: flex;
@@ -578,7 +578,7 @@ html {
   
   
   .contact-holder {
-    margin-left: 412px;
+    /* margin-left: 412px; */
     width: 375px;
     height: 803px;
     background-image: linear-gradient(to bottom, #388051, #1a4928);
@@ -703,10 +703,6 @@ html {
     line-height: -75px;
     padding-bottom: 5px;
   }
-
-
-
-
 }
 
 

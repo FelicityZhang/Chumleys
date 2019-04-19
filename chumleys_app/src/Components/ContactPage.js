@@ -1,13 +1,11 @@
 import React from 'react'
 import Fireplace_Restaurant from '../images/Fireplace.png'
-import Mobile_Fireplace from '../images/Mobile_Fireplace.png'
 
 export default function ContactPage( props ) {
     return (
         <div className='contactpage-block'>
             {/* <div className='contactpage-image'> */ }
             <div>
-                <img className='mobile-fireplace' src={ Mobile_Fireplace } />
 
                 <img className='contactpage-image' src={ Fireplace_Restaurant } />
             </div>
