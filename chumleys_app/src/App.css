@@ -592,6 +592,8 @@ html {
 }
 
 
+
+
 @media screen and (max-width: 375px) {
   .contactpage-block {
     width: 375px;
@@ -602,6 +604,11 @@ html {
     /* align-items: flex-start; */
     /* flex-wrap: wrap;  */
   }
+
+  .displayQuote{
+    display:none;
+  }
+ 
   
   .contact-header {
     margin-top: 26px;
