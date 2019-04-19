@@ -473,4 +473,62 @@ html {
 } */
 
 
+.Dimmer-Box {
+  width: 1440px;
+  height: 75px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+}
 
+.DimmerContainer{
+  width:700px;
+  height: 75px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.-Bedford-St-New-Y {
+  width: 336px;
+  height: 28px;
+  font-family: 'Josefin Slab';
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.phone{
+  width: 135px;
+  height: 28px;
+  font-family: 'Josefin Slab';
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Shape {
+  width: 34.8px;
+  height: 34.8px;
+  background-color: var(--white);
+}
+
+.socialMedia{
+  width:144.4px;
+  height:34.8px;
+  display:flex;
+justify-content:space-between;
+}
