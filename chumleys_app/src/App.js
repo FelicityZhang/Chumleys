@@ -10,6 +10,9 @@ import HemQuote from './Components/HemQuote'
 import ScottQuote from './Components/ScottQuote'
 import JackQuote from './Components/JackQuote'
 import Location from './Components/Location'
+import Footer from './Components/Footer'
+import EmptyQuote from './Components/EmptyQuote'
+
 
 import './App.css';
 class App extends Component {
@@ -25,6 +28,11 @@ class App extends Component {
         <Location />
         <JackQuote />
         <ContactPage />
+        <EmptyQuote />
+        <Footer />
+
+
+
       
       
       
