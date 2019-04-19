@@ -691,7 +691,6 @@ justify-content:space-between;
     width: 100%;
   }
 
-  
 
   .our-story-block {
     width: 375px;
@@ -759,14 +758,19 @@ justify-content:space-between;
     background-color: #393434;
   }
 
+  .hamburger-footer {
+   margin-top: 150px;
+  }
+
   .active {
     display: block;
   }
 
-  .empty {
-    /* opacity: 50% */
-    /* display: none; */
+  .hamburger-menu-links{
+    padding-top: 20px;
   }
+
+  
 
 .View_of_Bar {
   width: 100%;
