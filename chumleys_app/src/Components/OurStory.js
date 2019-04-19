@@ -1,12 +1,17 @@
 import React from 'react'
 import JimImage from '../images/Jim.png'
+import JimMobileImage from '../images/Mobile_Jim.png'
 
 export default function OurStory(props) {
     return (
         <div className='our-story-block' id="ourstory">
             <div className='our-story-image'>
-                <img src={JimImage} />
+                <img className='our-story-large-img' src={JimImage} />
+                <img className='our-story-mobile-img' src={JimMobileImage} />
             </div>
+
+
+
             <div className='our-story-description'>
                 <div className='our-story-information'>
                     <div className='our-story-title'>Our Story</div>
