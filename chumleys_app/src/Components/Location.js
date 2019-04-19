@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Map from '../images/Map.png'
 import Booth from '../images/Booth.png'
+import Mobile_Booth from '../images/Mobile_Booth.png'
 
 
 
@@ -29,7 +30,9 @@ export default class Contact extends Component {
                         </div>
                     </div>
                     <div className='Booth'>
-                        <img className='Booth' alt='boothImage' src={ Booth } />
+                        <img className='Booth-regular' alt='boothImage' src={ Booth } />
+                        <img className='Booth-mobile' alt='boothImage' src={ Mobile_Booth } />
+
                     </div>
                 </div>
             </div>
