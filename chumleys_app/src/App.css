@@ -108,6 +108,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   width:1200px;
   height:900px;
 }
@@ -139,7 +140,7 @@ html {
   justify-content: center;
   align-items: center;
 }
-
+ 
 .mapInfo-container{
   height:275px;
   width: 350px;
@@ -182,6 +183,59 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  .hourLocation-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .contact-main{
+    width: 375px;
+    height: 682px;
+  }
+
+  .Rectangle-Copy{
+    width:375px;
+    height: 682px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .Text-Box{
+    height: 617px;
+    width: 350px;
+  }
+
+  .mapInfo-container{
+    width:350px;
+    height:267px;
+  }
+
+  .Rectangle-Copy-2{
+    width: 350px;
+    height: 350px;
+  }
+
+  .Hours-Location{
+    width: 192px;
+    height: 31px;
+  }
+
+  .Dinner-Monday-Satu{
+    width: 174px;
+    height: 144px;
+  }
+
+  .Booth {
+    width: 375px;
+    height: 533px;
+  }
 }
 
   .chef-image {
