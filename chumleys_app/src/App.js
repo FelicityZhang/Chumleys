@@ -37,20 +37,23 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
         <div className={this.state.menuActive ? 'hamburger-menu-on' : 'hamburger-menu-off'}>
           <HamburgerMenu closeMenu={this.closeMenu} />
         </div>
-        <div className={this.state.menuActive ? 'empty' : 'active'}>
-          <Header openMenu={this.openMenu} />
-          <ChefBlock />
-          {/* <HemQuote /> */}
-          {/* <OurStory /> */}
-          {/* <ScottQuote /> */}
-          {/* <Location /> */}
-          {/* <JackQuote /> */}
-          {/* <ContactPage /> */}
+        {/* <div className={this.state.menuActive ? 'empty' : 'active'}> */}
+        <Header openMenu={this.openMenu} />
+        <ChefBlock />
+        {/* <HemQuote /> */}
+        {/* <OurStory /> */}
+        {/* <ScottQuote /> */}
+        {/* <Location /> */}
+        {/* <JackQuote /> */}
+        {/* <ContactPage /> */}
 
-        </div>
+        {/* </div> */}
+
+
 
 
 

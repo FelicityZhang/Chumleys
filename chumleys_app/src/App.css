@@ -489,10 +489,6 @@ html {
   display: block;
 }
 
-.empty {
-  display: none;
-}
-
 .exit {
   align-self: flex-end;
 }
@@ -516,15 +512,14 @@ html {
 .hamburger-menu-links a{
   color: white;
   text-decoration: none;
-  /* padding-top: 60px; */
-  height: 360px;
+  
+  padding-bottom: 20px;
 }
 
 .hamburger-menu-component {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: space-between; */
   width: 100vw;
   height: 100vh;
 }
@@ -532,16 +527,29 @@ html {
 .hamburger-footer p {
   font-family: 'Josefin Slab';
   font-size: 22px;
-  /* padding-top: 120px; */
   margin: 0;
 }
-
-
 
 @media screen and (max-width: 375px) {
 
   .App {
     width: 100%;
+  }
+
+  .hamburger-menu-on{
+    z-index: 2;
+    position: fixed;
+    animation: 1s linear slidein
+  }
+
+  @keyframes slidein{
+    from {
+      margin-top: 100%
+    }
+
+    to{
+      margin-top: 0%
+    }
   }
 
   .hamburger-menu-off{
@@ -551,20 +559,19 @@ html {
   .hamburger-menu-on {
     height: 100vh;
     display: block;
-    /* background-color: black; */
     color: white;
     opacity: 0.94;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     background-color: #393434;
   }
- */
 
   .active {
     display: block;
   }
 
   .empty {
-    display: none;
+    /* opacity: 50% */
+    /* display: none; */
   }
 
 .View_of_Bar {
