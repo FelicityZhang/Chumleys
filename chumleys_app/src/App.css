@@ -171,13 +171,11 @@ html {
 }
 
 
-.Booth {
-  width: 718px;
-  height: 900px;
-}
 
 .Booth-regular{
   display: block;
+  width: 718px;
+  height: 900px;
  }
  
  .Booth-mobile{
@@ -242,19 +240,18 @@ html {
     height: 144px;
   }
 
-  .Booth {
+  .Booth-regular{
+    display: none;
+    }
+    
+    .Booth-mobile{
+    display:block;
     width: 375px;
     height: 533px;
-  }
+    } 
 }
 
-.Booth-regular{
-  display: none;
-  }
-  
-  .Booth-mobile{
-  display:block;
-  }
+
   .chef-image {
   width: 718px;
   height: 900px;
@@ -553,15 +550,13 @@ html {
 .contact-button {
   width: 90px;
   height: 32px;
-  margin-left: -13px;
   border-radius: 3px;
-  /* margin-top: -30px; */
   background-color: #e48400;
-  /* padding-bottom: 34px; */
+  padding-bottom: 34px;
   font-size: 15px;
   color: #fbf8f0;
   margin-top: 21px;
-  /* line-height: -75px; */
+  line-height: -75px;
   padding-bottom: 5px;
 }
 
@@ -766,9 +761,11 @@ justify-content:space-between;
     display: block;
   }
 
+
   .hamburger-menu-links{
     padding-top: 20px;
   }
+
 
   
 
@@ -902,13 +899,12 @@ justify-content:space-between;
   
   .contact-box{
     width: 350px;
-    height: 726px;
+  height: 726px;
     order: solid 1px #979797;
     background-color: #fbf8f0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: -150px;
   }
   
   .contact-header {
