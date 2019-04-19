@@ -243,6 +243,14 @@ html {
   height: 900px;
 }
 
+.chef-large-image {
+  display: block;
+}
+
+.chef-mobile-image {
+  display: none;
+}
+
 .chef-information{
   width: 350px;
   height: 555px;
@@ -530,13 +538,181 @@ html {
   padding-bottom: 5px;
 }
 
+.hamburgermenu {
+  display: none;
+}
+
+.hamburger-menu-off {
+  display:none;
+}
+
+.hamburger-menu-on {
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+.exit {
+  align-self: flex-end;
+}
+
+.exit img {
+  height: 50px;
+  width: 50px;
+}
+
+.hamburger-menu-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Josefin Slab';
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.hamburger-menu-links a{
+  color: white;
+  text-decoration: none;
+  
+  padding-bottom: 20px;
+}
+
+.hamburger-menu-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hamburger-footer p {
+  font-family: 'Josefin Slab';
+  font-size: 22px;
+  margin: 0;
+}
+
+@media screen and (max-width: 375px) {
+
+  .App {
+    width: 100%;
+  }
+
+  .hamburger-menu-on{
+    z-index: 2;
+    position: fixed;
+    animation: 1s linear slidein
+  }
+
+  @keyframes slidein{
+    from {
+      margin-top: 100%
+    }
+
+    to{
+      margin-top: 0%
+    }
+  }
+
+  .hamburger-menu-off{
+    display: none;
+  }
+
+  .hamburger-menu-on {
+    height: 100vh;
+    display: block;
+    color: white;
+    opacity: 0.94;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #393434;
+  }
+
+  .active {
+    display: block;
+  }
+
+  .empty {
+    /* opacity: 50% */
+    /* display: none; */
+  }
+
+.View_of_Bar {
+  width: 100%;
+  height: 307px;
+  background-image: url(./images/Mobile_View_of_Bar.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 374px;
+    height: 46px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  width: 137.4px;
+  height: 31px;
+}
+
+.nav-img-year {
+  padding-top: 9px;
+  padding-left: 0px;
+}
+
+.established {
+  display: none;
+}
+
+.nav-links {
+  display: none;
+}
+
+.chef-block {
+  width: 100%;
+  flex-direction: column;
+}
+
+.chef-large-image {
+  display: none;
+}
+
+.chef-mobile-image {
+  display: block;
+}
+
+.chef-description {
+  width: 100%;
+  height: 631px;
+}
+
+.chef-image {
+  width: 100%
+}
+
+.hamburgermenu{
+  display: block;
+  padding-right: 20px;
+
+}
+
+.hamburgermenu img {
+  height: 20px;
+  width: 20px;
+}
 
 
-/* .name {
-  width: 34px;
-  height: 16px;
-} */
 
+
+
+
+
+
+
+}
 
 .Dimmer-Box {
   width: 1440px;
