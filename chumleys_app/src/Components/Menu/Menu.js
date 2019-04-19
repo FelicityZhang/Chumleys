@@ -8,9 +8,9 @@ export default class Menu extends Component {
     constructor(){
         super()
         this.state = {
-            button_dinner: true,
+            button_dinner: false,
             button_brunch: false,
-            button_drinks: false
+            button_drinks: true
         }
         this.handleClick = this.handleClick.bind(this)
     }

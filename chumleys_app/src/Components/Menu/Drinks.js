@@ -28,12 +28,12 @@ export default class Drinks extends Component {
                 </div> 
             <div className="drinks-4 title">Eve Harrington</div>
                 <div className="drinks-4 description">
-                    suntory toki, shochu, rose, lemon,<br />
+                    Suntory Toki, shochu, rose, lemon,<br />
                     honey sparkling rose  
                 </div> 
             <div className="drinks-5 title">You Look Confused</div>
                 <div className="drinks-5 description">
-                    pisco, caffe amaro, cinnamon,<br />
+                    Pisco, Caffe Amaro, cinnamon,<br />
                     black tea clove, cumin, caraway, fennel, bitters
                 </div>
                 </div>
@@ -43,32 +43,32 @@ export default class Drinks extends Component {
                 </div>    
             <div className="drinks-6 title">Breakfast Brew</div>
                 <div className="drinks-6 description">
-                    cutty sark prohibition, licorice<br />
+                    Cutty Sark Prohibition, licorice<br />
                     orange, lemon, honey, bitters, soda
                 </div>
             <div className="drinks-7 title">I Used to Come Here in the 70's</div>
                 <div className="drinks-7 description">
-                    highland park magnus,<br />
-                    baines pacharans, apple, bitters, soda
+                    Highland Park Magnus,<br />
+                    Baines Pacharans, apple, bitters, soda
                 </div>
             <div className="drinks-8 title">T.V. Reference</div>
                 <div className="drinks-8 description">
-                    glenlivet founder's reserve, dudognon<br />
-                    selection, orange, mint, almond extract, soda
+                    Glenlivet Founder's Reserve, Dudognon<br />
+                    Selection, orange, mint, almond extract, soda
                 </div>
             <div className="drinks-9 title">Too Many Cooks</div>  
                 <div className="drinks-9 description">
-                    copper dog, batavia-arrack, sfumato,<br />
-                    killian's, chai, lime, soda
+                    Copper Dog, Batavia-Arrack, Sfumato,<br />
+                    Killian's, chai, lime, soda
                 </div>
             <div className="drinks-10 title">We Both Still Love You</div>  
                 <div className="drinks-10 description">
-                    singleton 12, fino sherry,<br />
-                    quintinye blanc, soda
+                    Singleton 12, fino sherry,<br />
+                    Quintinye Blanc, soda
                 </div> 
             <div className="drinks-11 title">Choose Your Own Adventure</div>
                 <div className="drinks-11 description">
-                    bourbon or gin,<br />
+                    Bourbon or gin,<br />
                     lime oleo, lime, soda
                 </div>
                 </div>
