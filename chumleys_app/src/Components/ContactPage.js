@@ -10,12 +10,20 @@ export default function ContactPage(props) {
             <img className='mobile-fireplace' src={Mobile_Fireplace} />
 
             <img className='contactpage-image' src={Fireplace_Restaurant} />
+import Fireplace from '../images/Fireplace.png'
+
+
+export default function ContactPage(props) {
+    return (
+        <div className='contactpage-block' id='contactpage'>
+            <div className='contactpage-image'>
+                <img src={Fireplace} />
             </div>
 
             <div className='contact-holder'>
                 <div className='contact-box'>
-                        <p className='contact-header'>Contact</p>
-                    
+                    <p className='contact-header'>Contact</p>
+
                     <div className='contact-content'>
                     <div className='desktop-contact-text'>
                         <span className='media-contact'>For press inquiries, please email jrosen@chumleysnewyork.com
@@ -42,6 +50,16 @@ export default function ContactPage(props) {
                         <div className='name'>Message</div>
                     </div>
                     <button className='contact-button'>SEND</button>
+                        <div className='input1'>
+                            <div className='name'>Name</div>
+                        </div>
+                        <div className='input1'>
+                            <div className='name'>Email</div>
+                        </div>
+                        <div className='input2'>
+                            <div className='name'>Message</div>
+                        </div>
+                        <button className='contact-button'>SEND</button>
 
                     </div>
 
