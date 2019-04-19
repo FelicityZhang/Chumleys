@@ -477,12 +477,63 @@ html {
   display: none;
 }
 
+/* .hamburger-menu-component{
+  display: block;
+  background-color: black;
+  color: white;
+} */
+
+.hamburger-menu-off {
+  display:none;
+}
+
+.hamburger-menu-on {
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+.empty {
+  display: none;
+}
+
+.exit {
+  height: 50px;
+  width: 50px;
+}
+
+.exit img {
+  height: 50px;
+  width: 50px;
+}
+
 
 
 @media screen and (max-width: 375px) {
 
   .App {
     width: 100%;
+  }
+
+  .hamburger-menu-off{
+    display: none;
+  }
+
+  .hamburger-menu-on {
+    height: 100vh;
+    display: block;
+    background-color: black;
+    color: white;
+  }
+
+  .active {
+    display: block;
+  }
+
+  .empty {
+    display: none;
   }
 
 .View_of_Bar {

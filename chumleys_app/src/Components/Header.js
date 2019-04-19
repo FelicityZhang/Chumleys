@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 export default function Header(props) {
     return (
         <div className='View_of_Bar'>
-            <Navbar />
+            <Navbar openMenu={props.openMenu} />
 
         </div>
     )
