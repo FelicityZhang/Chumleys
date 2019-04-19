@@ -41,23 +41,14 @@ class App extends Component {
         <div className={this.state.menuActive ? 'hamburger-menu-on' : 'hamburger-menu-off'}>
           <HamburgerMenu closeMenu={this.closeMenu} />
         </div>
-        {/* <div className={this.state.menuActive ? 'empty' : 'active'}> */}
         <Header openMenu={this.openMenu} />
         <ChefBlock />
-        {/* <HemQuote /> */}
-        {/* <OurStory /> */}
-        {/* <ScottQuote /> */}
-        {/* <Location /> */}
-        {/* <JackQuote /> */}
-        {/* <ContactPage /> */}
-
-        {/* </div> */}
-
-
-
-
-
-
+        <HemQuote />
+        <OurStory />
+        <ScottQuote />
+        <Location />
+        <JackQuote />
+        <ContactPage />
       </div>
     );
   }
