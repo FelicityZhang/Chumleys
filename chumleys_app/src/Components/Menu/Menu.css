@@ -164,37 +164,33 @@
 
   @media screen and (max-width: 375px) {
     .menu-component{
-      height: 2990px;
+      overflow: auto;
     }
 
     .menus {
-      position: relative;
-      top: 50px;
-      left: -40px;
+      margin: 0 auto;
+      display: block;
     }
 
     #button_dinner {
-      top: 100px;
-      left: 50px;
+      margin: 0 auto;
       display: block;
       margin-bottom: 40px;
     }
 
     #button_brunch {
-      top: 100px;
-      left: 50px;
+      margin: 0 auto;
       display: block;
       margin-bottom: 40px;
     }
 
     #button_drinks {
-      top: 100px;
-      left: 50px;
+      margin: 0 auto 30px;
       display: block;
     }
 
     .menu-executive-chef {
-      left: 30px;
+      margin: 0 auto 70px;
       width: 230px;
       display: block;
     }
@@ -206,76 +202,66 @@
 
     .dinner-column-2{
       position: relative;
-      top: 80px;
-      left: -90px;
-      width: 260px;
-
+      margin: 0 auto;
     }
     
     .dinner-column-3{
       position: relative;
-      top: 80px;
-      left: 0px;
-      width: 260px;
+      margin: 0 auto;
+      /* width: 260px; */
     }
 
     .brunch-column-2{
       position: relative;
-      top: 80px;
-      left: -90px;
+      margin: 0 auto;
       width: 260px;
     }
   
     .brunch-column-3{
       position: relative;
-      top: 80px;
-      left: 0px;
+      margin: 0 auto;
       width: 260px;
     }
 
     .cocktails{
-      left: 10px;
+      margin: 0 auto 20px;
       width: 260px;
-      margin-bottom: 0px;
       display: block;
     }
 
     .column-2{
       position: relative;
-      top: 80px;
-      left: -90px;
+      margin: 0 auto 30px;
       width: 270px;
-      margin-bottom: 70px;
     }
 
     .column-3{
       position: relative;
-      top: 80px;
-      left: 0px;
+      margin: 0 auto;
       width: 260px;
     }
 
     .column-title {
-      top: 120px;
+      margin: 0 auto 20px;
       width: 260px;
     }
 
     .title {
-      width: 280px;
+      width: 260px;
       font-size: 32px;
-      left: -10px;
+      margin: 0 auto;
+      font-size: 30px;
     }
 
     .description {
-      font-size: 22px;
-      margin-top: 0px;
-      margin-bottom: 30px;
+      font-size: 20px;
+      width: 250px;
+      margin: 0 auto 30px;
     }
 
     .drinks-button{
       position: relative;
-      left: 15px;
-      top: 250px;
+      margin: 0 auto;
       display: block;
     }
 
