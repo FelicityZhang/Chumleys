@@ -12,7 +12,7 @@ import JackQuote from './Components/JackQuote'
 import Location from './Components/Location'
 import Footer from './Components/Footer'
 import EmptyQuote from './Components/EmptyQuote'
-
+import Parallax from './Components/parallax.js'
 
 import './App.css';
 class App extends Component {
@@ -21,6 +21,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Menu />
+        <Parallax />
         <ChefBlock />
         <HemQuote />
         <OurStory />
