@@ -7,6 +7,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #fbf9f1;
   
 
 }
@@ -280,6 +281,10 @@ html {
 
 }
 
+.our-story-description {
+  margin-left: -1px;
+}
+
 .chef-information{
   width: 350px;
   height: 555px;
@@ -332,6 +337,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  
  
 }
 
