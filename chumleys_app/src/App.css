@@ -1076,8 +1076,11 @@ justify-content:space-between;
 
 
 
+.Parallax {
+  /* margin: 0 auto; */
+  margin: -180px auto -195px auto;
 
-
+}
 
 
 .parallax {
@@ -1103,6 +1106,10 @@ justify-content:space-between;
   height: 341px;
   z-index: 5;
 
+}
+
+.Mobile_Cannoli {
+  display: none;
 }
 
 .Cannoli{
@@ -1138,6 +1145,24 @@ justify-content:space-between;
 
 
 @media screen and (max-width: 375px) {
+
+  .contactpage-image {
+    margin-top: 60px;
+    width: 375px;
+    height: 433px;
+    flex-basis: 150%;
+    /* display: none; */
+
+  }
+
+
+  .Parallax {
+    /* margin: 0 auto; */
+    margin: 100px auto; 
+    /* display: none; */
+    width: 375;
+  }
+  
   .Stew{
     display: none;
   }
@@ -1155,29 +1180,34 @@ justify-content:space-between;
   .Cocktails {
     width: 342px;
     height: 516px;
-    width: 368px;
-    height: 555px;
-    margin-left: -222px;
+    /* width: 368px;
+    height: 555px; */
+    margin-left: -180px;
+    /* margin-left: -222px;
     padding-right: 0px;  
-    margin-right: 0px;
+    margin-right: 0px; */
     margin-top: -658px;
     position: absolute;
-
     /* transform: translateZ(-.25px) scale(1); */
   }
 
-  .Cannoli {
-    padding-top: 400px;
+  .Mobile_Cannoli {
+    /* padding-top: 400px; */
+    margin-top: 400px;
+    margin-right: 400px;
+    /* margin-bottom: -200px; */
     width: 342px;
     height: 459px;
+    display: block;
     /* position:absolute; */
-    margin-bottom: -450px;
-    margin-left: -222px;
+    
+  }
+
+  .Cannoli {
+    display: none;
   }
 
 }
-
-
 
 
 
