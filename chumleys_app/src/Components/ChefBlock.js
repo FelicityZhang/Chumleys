@@ -1,5 +1,6 @@
 import React from 'react'
 import ChefImage from '../images/Chef_Pelletier.png'
+import MobileChefImage from '../images/Mobile_Chef_Pelletier.png'
 
 export default function ChefBlock(props) {
     return (
@@ -27,7 +28,8 @@ export default function ChefBlock(props) {
 
             </div>
             <div className='chef-image'>
-                <img src={ChefImage} />
+                <img className='chef-large-image' src={ChefImage} />
+                <img className='chef-mobile-image' src={MobileChefImage} />
             </div>
 
         </div>

@@ -7,6 +7,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #fbf9f1;
   
 
 }
@@ -56,7 +57,7 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 722.5px;
+  width: auto;
 }
 
 
@@ -65,6 +66,7 @@ html {
   text-decoration: none;
   font-family: 'Josefin Slab', serif; 
   font-weight: bold;
+  font-size: 22px;
 }
 
 .nav-menu-button {
@@ -95,6 +97,7 @@ html {
   font-weight: bold;
   padding-left: 21.5px;
   padding-right: 20.5px;
+  position: static;
 }
 
 
@@ -108,6 +111,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   width:1200px;
   height:900px;
 }
@@ -121,6 +125,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 .chef-block {
   width: 1200px;
@@ -139,7 +144,7 @@ html {
   justify-content: center;
   align-items: center;
 }
-
+ 
 .mapInfo-container{
   height:275px;
   width: 350px;
@@ -168,10 +173,20 @@ html {
 }
 
 
-.Booth {
+
+.Booth-regular{
+  display: block;
   width: 718px;
   height: 900px;
-}
+ }
+ 
+ .Booth-mobile{
+ display:none;
+ position: relative;
+ top: -355px;
+ position: relative;
+ bottom: -1200px;
+ }
 
 .Text-Box {
   width: 350px;
@@ -184,9 +199,90 @@ html {
   align-items: center;
 }
 
+@media screen and (max-width: 375px) {
+  .hourLocation-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .contact-main{
+    width: 375px;
+    height: 682px;
+  }
+
+  .Rectangle-Copy{
+    width:375px;
+    height: 682px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .Text-Box{
+    height: 617px;
+    width: 350px;
+  }
+
+  .mapInfo-container{
+    width:350px;
+    height:267px;
+  }
+
+  .Rectangle-Copy-2{
+    width: 350px;
+    height: 350px;
+  }
+
+  .Hours-Location{
+    width: 192px;
+    height: 31px;
+  }
+
+  .Dinner-Monday-Satu{
+    width: 174px;
+    height: 144px;
+  }
+
+  .Booth-regular{
+    display: none;
+    }
+    
+    .Booth-mobile{
+    display:block;
+    width: 375px;
+    height: 533px;
+    } 
+}
+
+
   .chef-image {
   width: 718px;
   height: 900px;
+}
+
+.chef-large-image {
+  display: block;
+
+}
+
+.chef-mobile-image {
+  display: none;
+}
+
+.our-story-large-img {
+  display: block;
+}
+
+.our-story-mobile-img {
+  display: none;
+
+}
+
+.our-story-description {
+  margin-left: -1px;
 }
 
 .chef-information{
@@ -241,6 +337,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  
+ 
 }
 
 .hoursContainer{
@@ -344,6 +442,7 @@ html {
 .contactpage-image {
   width: 718px;
   height: 900px;
+
 }
 
 .mobile-fireplace {
@@ -359,6 +458,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* position: relative;
+  top: 31px; */
+
 }
 
 .contact-box{
@@ -476,13 +578,62 @@ html {
   padding-bottom: 5px;
 }
 
+.hamburgermenu {
+  display: none;
+}
 
+.hamburger-menu-off {
+  display:none;
+}
 
-/* .name {
-  width: 34px;
-  height: 16px;
-} */
+.hamburger-menu-on {
+  display: none;
+}
 
+.active{
+  display: block;
+}
+
+.exit {
+  align-self: flex-end;
+}
+
+.exit img {
+  height: 50px;
+  width: 50px;
+}
+
+.hamburger-menu-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Josefin Slab';
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.hamburger-menu-links a{
+  color: white;
+  text-decoration: none;
+  
+  padding-bottom: 20px;
+}
+
+.hamburger-menu-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hamburger-footer p {
+  font-family: 'Josefin Slab';
+  font-size: 22px;
+  margin: 0;
+}
 
 .Dimmer-Box {
   width: 1440px;
@@ -537,8 +688,190 @@ html {
   background-color: var(--white);
 }
 
+.socialMedia{
+  width:144.4px;
+  height:34.8px;
+  display:flex;
+justify-content:space-between;
+}
+
+
+
 
 @media screen and (max-width: 375px) {
+
+.Rectangle-Copy{
+  position: relative;
+  top: -350px;
+}
+  .App {
+    width: 100%;
+  }
+
+
+  .our-story-block {
+    width: 375px;
+    height: 1290px;
+    display: flex;
+    flex-direction: column-reverse;
+  } 
+
+  .our-story-description{
+    width: 375px;
+  height: 753px;
+  position: relative;
+  top: -220px;
+  }
+
+ .our-story-information {
+  width: 350px;
+  height: 681px;
+  
+ }
+
+ .our-story-image {
+  width: 375px;
+  height: 533px;
+}
+
+.our-story-content{
+  width: 332px;
+  height: 688px;
+  font-family: 'Josefin Slab';
+  font-size: 20px;
+  letter-spacing: -0.4px;
+}
+
+.hem-quote { 
+  width: 375px;
+  padding-top: 80px;
+  padding-bottom:68px;
+}
+
+  .hamburger-menu-on{
+    z-index: 2;
+    position: fixed;
+    animation: 1s linear slidein
+  }
+
+  @keyframes slidein{
+    from {
+      margin-top: 100%
+    }
+
+    to{
+      margin-top: 0%
+    }
+  }
+
+  .hamburger-menu-off{
+    display: none;
+  }
+
+  .hamburger-menu-on {
+    height: 100vh;
+    display: block;
+    color: white;
+    opacity: 0.94;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #393434;
+  }
+
+  .hamburger-footer {
+   margin-top: 150px;
+  }
+
+  .active {
+    display: block;
+  }
+
+
+  .hamburger-menu-links{
+    padding-top: 20px;
+  }
+
+
+  
+
+.View_of_Bar {
+  width: 100%;
+  height: 307px;
+  background-image: url(./images/Mobile_View_of_Bar.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 374px;
+    height: 46px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  width: 137.4px;
+  height: 31px;
+}
+
+.nav-img-year {
+  padding-top: 9px;
+  padding-left: 0px;
+}
+
+.established {
+  display: none;
+}
+
+.nav-links {
+  display: none;
+}
+
+.chef-block {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+}
+
+.chef-large-image {
+  display: none;
+}
+
+.chef-mobile-image {
+  display: block;
+}
+
+.chef-description {
+  width: 100%;
+  height: 631px;
+  position: relative;
+  top: 80px;
+}
+
+.chef-image {
+  width: 100%
+}
+
+.hamburgermenu{
+  display: block;
+  padding-right: 20px;
+
+}
+
+.hamburgermenu img {
+  height: 20px;
+  width: 20px;
+}
+
+.our-story-large-img {
+  display: none;
+}
+
+.our-story-mobile-img {
+  display: block;
+  position: relative;
+  top: -250px;
+}
+
+
   .contactpage-block {
     width: 375px;
     height: 1450px;
@@ -548,6 +881,11 @@ html {
     /* align-items: flex-start; */
     /* flex-wrap: wrap;  */
   }
+
+  .displayQuote{
+    display:none;
+  }
+ 
   
   .contact-header {
     margin-top: 26px;
@@ -585,7 +923,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+    position: relative;
+    top: 60px;
+}
+  
   
   .contact-box{
     width: 350px;
@@ -707,12 +1048,15 @@ html {
 
 
 
+
 .socialMedia{
   width:144.4px;
   height:34.8px;
   display:flex;
 justify-content:space-between;
 }
+
+
 
 
 
@@ -877,3 +1221,4 @@ justify-content:space-between;
 /* img:last-of-type {
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(0deg);
 } */
+

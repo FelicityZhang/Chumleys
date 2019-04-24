@@ -1,5 +1,6 @@
 import React from 'react'
 import Fireplace_Restaurant from '../images/Fireplace.png'
+// import '../App.css';
 
 // import Mobile_Fireplace from '../images/Mobile_Fireplace.png'
 
@@ -39,11 +40,13 @@ export default function ContactPage( props ) {
                         </div>
                         <div className='input1'>
                             <div className='name'>Email</div>
+                            <button className='contact-button'>SEND</button>
+
                         </div>
                         <div className='input2'>
                             <div className='name'>Message</div>
+
                         </div>
-                        <button className='contact-button'>SEND</button>
 
                     </div>
 
