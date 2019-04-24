@@ -11,9 +11,9 @@ export default class Footer extends Component {
                 <div className='Dimmer-Box'>
                     <div className='DimmerContainer'>
                         <div className='socialMedia'>
-                            <div><img className='Shape' src={ Facebook } /></div>
-                            <div><img className='Shape' src={ Twitter } /></div>
-                            <div><img className='Shape' src={ Ins } /></div>
+                            <div><a href="https://www.facebook.com/Chumleys/"><img className='Shape' src={ Facebook } /></a></div>
+                            <div><a href="https://twitter.com/hashtag/chumleys?src=hash"><img className='Shape' src={ Twitter } /></a></div>
+                            <div><a href="https://www.instagram.com/chumleysnyc/?hl=en"><img className='Shape' src={ Ins } /></a></div>
                         </div>
                         {/* <div></div>
                 <div></div> */}
