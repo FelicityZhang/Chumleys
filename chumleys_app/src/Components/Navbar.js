@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/logo.png'
-import HamburgerMenuIcon from '../images/hamburger-menu-icon-2.png'
+import HamburgerMenuIcon from '../images/hamburger-icon.png'
 import HamburgerMenu from './HamburgerMenu'
 
 
@@ -44,7 +44,8 @@ export default class Navbar extends React.Component {
                 </div>
 
                 <div className='hamburgermenu' onClick={ this.props.openMenu }>
-                    <img src={ HamburgerMenuIcon } />
+                    <img src={HamburgerMenuIcon} />
+                    
                 </div>
 
                 {/* {this.state.menuActive && <HamburgerMenu />} */ }
