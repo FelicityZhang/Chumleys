@@ -627,7 +627,6 @@ html {
 .hamburger-menu-links a{
   color: white;
   text-decoration: none;
-  
   padding-bottom: 20px;
 }
 
@@ -761,18 +760,18 @@ justify-content:space-between;
 }
 
   .hamburger-menu-on{
-    z-index: 2;
+    z-index: 101;
     position: fixed;
     animation: 1s linear slidein
   }
 
   @keyframes slidein{
     from {
-      margin-top: 100%
+      margin-bottom: 0%
     }
 
     to{
-      margin-top: 0%
+      margin-bottom: 100%
     }
   }
 

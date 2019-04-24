@@ -8,13 +8,13 @@ export default function HamburgerMenu(props) {
                 <img src={xicon} />
             </div>
 
-            <div className='hamburger-menu-links'>
-                <a href='#'>Book a Table</a>
-                <a href='#'>Menu</a>
-                <a href='#'>Hours and Location</a>
-                <a href='#'>Our Story</a>
-                <a href='#'>Executive Chef</a>
-                <a href='#'>Contact</a>
+            <div className='hamburger-menu-links' onClick={props.closeMenu}>
+                <a href='https://resy.com/cities/ny?date=2019-04-24&seats=2&query=chumlesy' target="_blank">Book a Table</a>
+                <a href='#menu'>Menu</a>
+                <a href='#chef'>Executive Chef</a>
+                <a href='#ourstory'>Our Story</a>
+                <a href='#hourslocation'>Hours and Location</a>
+                <a href='#contactpage'>Contact</a>
             </div>
 
             <div className='hamburger-footer'>

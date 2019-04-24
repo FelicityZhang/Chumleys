@@ -4,7 +4,7 @@ import MobileChefImage from '../images/Mobile_Chef_Pelletier.png'
 
 export default function ChefBlock(props) {
     return (
-        <div className='chef-block'>
+        <div className='chef-block' id="chef">
 
             <div className='chef-description'>
                 <div className='chef-information'>
