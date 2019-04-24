@@ -27,7 +27,7 @@ export default class Navbar extends React.Component {
 
 
                 <div className='nav-links'>
-                    <a href="#" className='nav-menu-button'>Menu</a>
+                    <a href="#menu" className='nav-menu-button'>Menu</a>
                     <a href="#ourstory" className='nav-story-button'>Our Story</a>
                     <a href="#hourslocation" className='nav-hours-button'>Hours &amp; Location</a>
                     <a href="#contactpage" className='nav-contact-button'>Contact</a>

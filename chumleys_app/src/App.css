@@ -58,6 +58,7 @@ html {
   flex-direction: row;
   align-items: center;
   width: auto;
+  padding-right: 60px;
 }
 
 
