@@ -13,7 +13,7 @@ import Location from './Components/Location'
 import HamburgerMenu from './Components/HamburgerMenu'
 import Footer from './Components/Footer'
 import EmptyQuote from './Components/EmptyQuote'
-
+import Parallax from './Components/parallax.js'
 
 
 import './App.css';
@@ -50,6 +50,7 @@ class App extends Component {
         </div>
         <Header openMenu={this.openMenu} />
         <Menu />
+        <Parallax />
         <ChefBlock />
         <HemQuote />
         <OurStory />
