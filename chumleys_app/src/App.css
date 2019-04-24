@@ -653,6 +653,7 @@ html {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
  
 }
 
@@ -663,6 +664,7 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .-Bedford-St-New-Y {
