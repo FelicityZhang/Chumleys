@@ -1,34 +1,61 @@
 import React from 'react'
 import logo from '../images/logo.png'
 import HamburgerMenuIcon from '../images/hamburger-menu-icon-2.png'
-import HamburgerMenu from './HamburgerMenu'
 
 
 
 export default class Navbar extends React.Component {
 
-    constructor ( props ) {
-        super( props )
+    constructor(props) {
+        super(props)
         this.state = {
-            menuActive: false
+            menuActive: false,
+            sizeClass: 'navbar'
         }
 
+    }
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.resizeHeaderOnScroll)
+    }
+
+    resizeHeaderOnScroll() {
+        const distance = window.pageYOffset || document.documentElement.scrollTop
+        const shrinkOn = 800
+        const headerElement = document.getElementById('navbar-wrapper')
+        const logoElement = document.getElementById('logo')
+        const establishedElement = document.getElementById('established')
+
+        if (distance > shrinkOn) {
+            headerElement.classList.add('smaller')
+            headerElement.classList.remove('navbar')
+            logoElement.classList.add('smaller-logo')
+            logoElement.classList.remove('logo')
+            establishedElement.classList.add('smaller-established')
+            establishedElement.classList.remove('established')
+        }
+        else {
+            headerElement.classList.remove('smaller')
+            headerElement.classList.add('navbar')
+            logoElement.classList.remove('smaller-logo')
+            logoElement.classList.add('logo')
+            establishedElement.classList.remove('smaller-established')
+            establishedElement.classList.add('established')
+
+        }
     }
 
 
 
     render() {
         return (
-            <div className='navbar'>
-                <div className='nav-img-year'>
-                    <img src={ logo } className='logo' />
-                    <p className='established'>Established 1922</p>
-                </div>
+            <div className='navbar' id='navbar-wrapper'>
 
-                <a href='#' >
+
+                <a href='#' className='navbar-logo-established'>
                     <div className='nav-img-year' id='#'>
-                        <img src={logo} className='logo' />
-                        <p className='established'>Established 1922</p>
+                        <img src={logo} className='logo' id='logo' />
+                        <p className='established' id='established'>Established 1922</p>
                     </div>
                 </a>
 
@@ -43,11 +70,11 @@ export default class Navbar extends React.Component {
                     </a>
                 </div>
 
-                <div className='hamburgermenu' onClick={ this.props.openMenu }>
-                    <img src={ HamburgerMenuIcon } />
+                <div className='hamburgermenu' onClick={this.props.openMenu}>
+                    <img src={HamburgerMenuIcon} />
                 </div>
 
-                {/* {this.state.menuActive && <HamburgerMenu />} */ }
+                {/* {this.state.menuActive && <HamburgerMenu />} */}
 
 
 
