@@ -5,7 +5,7 @@ import Drinks from './Drinks'
 import './Menu.css'
 
 export default class Menu extends Component {
-    constructor(){
+    constructor() {
         super()
         this.state = {
             button_dinner: false,
@@ -16,22 +16,22 @@ export default class Menu extends Component {
     }
 
     handleClick(e) {
-        if (e.target.id==="button_dinner") {
+        if (e.target.id === "button_dinner") {
             this.setState({
                 button_dinner: true,
                 button_brunch: false,
                 button_drinks: false,
             })
-            
+
         }
-        if (e.target.id==="button_brunch") {
+        if (e.target.id === "button_brunch") {
             this.setState({
                 button_dinner: false,
                 button_brunch: true,
                 button_drinks: false,
             })
         }
-        if (e.target.id==="button_drinks") {
+        if (e.target.id === "button_drinks") {
             this.setState({
                 button_dinner: false,
                 button_brunch: false,
@@ -40,49 +40,49 @@ export default class Menu extends Component {
         }
     }
     render() {
-        return(
-            <div className="menu-component">
-            <div className="menus">Menus</div>
+        return (
+            <div className="menu-component" id='menu'>
+                <div className="menus">Menus</div>
                 <div className={"buttons"}>
-                    <button 
-                        id="button_dinner" 
-                        onClick={this.handleClick} 
-                        className= {`button ${this.state.button_dinner}`}
+                    <button
+                        id="button_dinner"
+                        onClick={this.handleClick}
+                        className={`button ${this.state.button_dinner}`}
                     >
-                            Dinner
+                        Dinner
                     </button>
-                    <button 
-                        id="button_brunch" 
-                        onClick={this.handleClick} 
-                        className= {`button ${this.state.button_brunch}`}
+                    <button
+                        id="button_brunch"
+                        onClick={this.handleClick}
+                        className={`button ${this.state.button_brunch}`}
                     >
-                            Brunch
+                        Brunch
                     </button>
-                    <button 
-                        id="button_drinks" 
-                        onClick={this.handleClick} 
-                        className= {`button ${this.state.button_drinks}`}
+                    <button
+                        id="button_drinks"
+                        onClick={this.handleClick}
+                        className={`button ${this.state.button_drinks}`}
                     >
-                            Drinks
+                        Drinks
                     </button>
-                </div> 
+                </div>
 
                 <div className="menu-conditional-render">
-                    {this.state.button_dinner ?  
+                    {this.state.button_dinner ?
                         (<div id="div-dinner">
-                            <Dinner /></div>):   
-                        (<div></div>)} 
-                    {this.state.button_brunch ? 
+                            <Dinner /></div>) :
+                        (<div></div>)}
+                    {this.state.button_brunch ?
                         (<div id="div-brunch">
-                            <Brunch /> </div>): 
-                        (<div></div>)} 
-                    {this.state.button_drinks ? 
+                            <Brunch /> </div>) :
+                        (<div></div>)}
+                    {this.state.button_drinks ?
                         (<div id="div-drinks">
                             <Drinks />
-                        </div>): 
+                        </div>) :
                         (<div></div>)}
                 </div>
-            </div>  
+            </div>
         )
     }
 }
