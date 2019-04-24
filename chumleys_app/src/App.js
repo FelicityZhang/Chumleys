@@ -58,8 +58,6 @@ class App extends Component {
         <Location />
         <JackQuote />
         <ContactPage />
-
-        <EmptyQuote />
         <Footer />
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import xicon from '../images/x-icon.png'
+import xicon from '../images/x-icon-white.png'
 
 export default function HamburgerMenu(props) {
     return (
