@@ -30,11 +30,36 @@ html {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+
+}
+
+.smaller {
+  width: 100vw;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
 }
 
 .logo {
   width: 251px;
   height: 57px;
+}
+
+.smaller-logo {
+  width: 176px;
+  height: 40px;
+  padding-bottom: 9px;
+}
+
+
+
+.navbar-logo-established{
+  text-decoration: none;
 }
 
 .nav-img-year {
@@ -48,6 +73,7 @@ html {
 
 
 
+
 .established {
   color: #dabb6a;
   font-family: Helvetica;
@@ -56,6 +82,10 @@ html {
   margin: 0px;
   text-align: center;
   color: #dabb6a;
+}
+
+.smaller-established{
+  display: none
 }
 
 .nav-links{
@@ -210,6 +240,9 @@ html {
 }
 
 @media screen and (max-width: 375px) {
+
+ 
+
   .hourLocation-container{
     display: flex;
     flex-direction: column;
@@ -376,6 +409,8 @@ html {
 .hours{
   margin:0;
 }
+
+
   
 .our-story-image {
   width: 718px;
@@ -812,16 +847,14 @@ justify-content:space-between;
   background-repeat: no-repeat;
 }
 
-.navbar {
-    width: 374px;
-    height: 46px;
-    background-color: rgba(0, 0, 0, 0.5);
-}
 
-.logo {
+
+
+
+/* .logo {
   width: 137.4px;
   height: 31px;
-}
+} */
 
 .nav-img-year {
   padding-top: 9px;
@@ -1076,8 +1109,11 @@ justify-content:space-between;
 
 
 
+.Parallax {
+  /* margin: 0 auto; */
+  margin: -180px auto -195px auto;
 
-
+}
 
 
 .parallax {
@@ -1103,6 +1139,10 @@ justify-content:space-between;
   height: 341px;
   z-index: 5;
 
+}
+
+.Mobile_Cannoli {
+  display: none;
 }
 
 .Cannoli{
@@ -1138,6 +1178,24 @@ justify-content:space-between;
 
 
 @media screen and (max-width: 375px) {
+
+  .contactpage-image {
+    margin-top: 60px;
+    width: 375px;
+    height: 433px;
+    flex-basis: 150%;
+    /* display: none; */
+
+  }
+
+
+  .Parallax {
+    /* margin: 0 auto; */
+    margin: 100px auto; 
+    /* display: none; */
+    width: 375;
+  }
+  
   .Stew{
     display: none;
   }
@@ -1155,29 +1213,34 @@ justify-content:space-between;
   .Cocktails {
     width: 342px;
     height: 516px;
-    width: 368px;
-    height: 555px;
-    margin-left: -222px;
+    /* width: 368px;
+    height: 555px; */
+    margin-left: -180px;
+    /* margin-left: -222px;
     padding-right: 0px;  
-    margin-right: 0px;
+    margin-right: 0px; */
     margin-top: -658px;
     position: absolute;
-
     /* transform: translateZ(-.25px) scale(1); */
   }
 
-  .Cannoli {
-    padding-top: 400px;
+  .Mobile_Cannoli {
+    /* padding-top: 400px; */
+    margin-top: 400px;
+    margin-right: 400px;
+    /* margin-bottom: -200px; */
     width: 342px;
     height: 459px;
+    display: block;
     /* position:absolute; */
-    margin-bottom: -450px;
-    margin-left: -222px;
+    
+  }
+
+  .Cannoli {
+    display: none;
   }
 
 }
-
-
 
 
 

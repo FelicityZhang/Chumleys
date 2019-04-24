@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Facebook from '../images/Facebook.png'
-import Ins from '../images/Ins.png'
-import Twitter from '../images/Twitter.png'
+import Facebook from '../images/facebook-logo-button.png'
+import Ins from '../images/instagram-logo.png'
+import Twitter from '../images/twitter-logo-button.png'
 
 
 export default class Footer extends Component {

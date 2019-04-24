@@ -3,6 +3,8 @@ import Stew from '../images/Stew.png'
 import Cannoli from '../images/Cannoli.png'
 import Duck_Waffle from '../images/Duck_Waffle.png'
 import Cocktails from '../images/Cocktails.png'
+import Mobile_Cannoli from '../images/Mobile_Cannoli.png'
+
 
 import '../App.css';
 
@@ -17,6 +19,7 @@ class Parallax extends Component {
           <div className="parallax">
 
               <img className="Stew" src={Stew}/>
+              <img className="Mobile_Cannoli" src={Mobile_Cannoli}/>
               <img className="Cannoli" src={Cannoli}/>
               <img className="Waffle" src={Duck_Waffle}/>
               <img className="Cocktails" src={Cocktails}/>
