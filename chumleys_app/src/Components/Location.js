@@ -8,7 +8,7 @@ import Mobile_Booth from '../images/Mobile_Booth.png'
 export default class Contact extends Component {
     render() {
         return (
-            <div className='hourLocation-container'>
+            <div className='hourLocation-container' id='hourslocation'>
                 <div className='contact-main'>
                     <div className='Rectangle-Copy'>
                         <div className="Text-Box">
