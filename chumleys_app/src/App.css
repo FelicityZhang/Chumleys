@@ -45,12 +45,16 @@ html {
   align-items: center;
 }
 
+
+
 .established {
   color: #dabb6a;
   font-family: Helvetica;
   font-size: 17px;
   padding: 0px;
   margin: 0px;
+  text-align: center;
+  color: #dabb6a;
 }
 
 .nav-links{
@@ -59,6 +63,10 @@ html {
   align-items: center;
   width: auto;
   padding-right: 60px;
+}
+
+.navbar a {
+  text-decoration: none;
 }
 
 
