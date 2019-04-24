@@ -25,9 +25,16 @@ export default class Navbar extends React.Component {
                     <p className='established'>Established 1922</p>
                 </div>
 
+                <a href='#' >
+                    <div className='nav-img-year' id='#'>
+                        <img src={logo} className='logo' />
+                        <p className='established'>Established 1922</p>
+                    </div>
+                </a>
+
 
                 <div className='nav-links'>
-                    <a href="#" className='nav-menu-button'>Menu</a>
+                    <a href="#menu" className='nav-menu-button'>Menu</a>
                     <a href="#ourstory" className='nav-story-button'>Our Story</a>
                     <a href="#hourslocation" className='nav-hours-button'>Hours &amp; Location</a>
                     <a href="#contactpage" className='nav-contact-button'>Contact</a>

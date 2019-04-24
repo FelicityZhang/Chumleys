@@ -29,6 +29,7 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  z-index: 100;
 }
 
 .logo {
@@ -45,12 +46,16 @@ html {
   align-items: center;
 }
 
+
+
 .established {
   color: #dabb6a;
   font-family: Helvetica;
   font-size: 17px;
   padding: 0px;
   margin: 0px;
+  text-align: center;
+  color: #dabb6a;
 }
 
 .nav-links{
@@ -58,6 +63,11 @@ html {
   flex-direction: row;
   align-items: center;
   width: auto;
+  padding-right: 60px;
+}
+
+.navbar a {
+  text-decoration: none;
 }
 
 
@@ -1049,8 +1059,176 @@ justify-content:space-between;
 
 
 
+.socialMedia{
+  width:144.4px;
+  height:34.8px;
+  display:flex;
+justify-content:space-between;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+.parallax {
+  position:absolute; 
+  margin-left: 480px;
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  /* box-shadow: 0 -1px 10px rgba(0, 0, 0, .7); */
+  transform-style: inherit;
+}
+
+
+
+.Stew{
+  position: absolute;
+  /* transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(0deg); */
+  margin-left: -927px;
+  margin-top: -80px;
+  width: 512px;
+  height: 341px;
+  z-index: 5;
+
+}
+
+.Cannoli{
+  position:absolute;
+  width: 850px;
+  height: 566px;
+  margin-bottom: 0px;
+  z-index: 3;
+  margin-bottom: -130px;
+  margin-left: -450px;
+
+}
+
+.Cocktails{
+  width: 368px;
+  height: 555px;
+  z-index: 1;
+  margin-left: -220px;
+  padding-right: 220px;  
+  margin-right: 50px;
+  padding-top: 490px;
+  transform: translateZ(-.25px) scale(1);
+
+}
+
+.Waffle{
+  position:absolute; 
+  margin-top: 343px;
+  width: 454px;
+  height: 599px;
+  margin-left:-785px;
+}
+
+
+@media screen and (max-width: 375px) {
+  .Stew{
+    display: none;
+  }
+  .Waffle{
+    display: none;
+  }
+
+  .parallax {
+    display: flex;
+    align-content: center;
+    flex-direction: row-reverse;
+    height: 995px;
+  }
+
+  .Cocktails {
+    width: 342px;
+    height: 516px;
+    width: 368px;
+    height: 555px;
+    margin-left: -222px;
+    padding-right: 0px;  
+    margin-right: 0px;
+    margin-top: -658px;
+    position: absolute;
+
+    /* transform: translateZ(-.25px) scale(1); */
+  }
+
+  .Cannoli {
+    padding-top: 400px;
+    width: 342px;
+    height: 459px;
+    /* position:absolute; */
+    margin-bottom: -450px;
+    margin-left: -222px;
+  }
+
+}
+
+
+
+
+
+/* POTENTIAL PARALLAX STYLING BELOW */
+/* .Parallax { */
+
+  /* display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%; */
+
+  /* text-align: center; */
+  /* parallax additions below */
+
+  /* height: 100%;
+  overflow: hidden;
+  margin:0;
+  padding:0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden; */
+  
+  /* all of the above for parallax */
+  
+  /* position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+  transform-style: inherit; */
+/* } */
+
+
+/* img { */
+  /* parallax additions below */
+
+  /* position: absolute; 
+  margin-left: 0px;
+
+  top: 50%;
+  left: 35%;
+  width: 320px;
+  height: 240px;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(0deg);
+  padding: 10px;  */
+  /* all of the above for parallax */
+/* } */
+
+/* img:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(0deg);
+} */
 
