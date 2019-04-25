@@ -1,10 +1,32 @@
-import React from 'react'
+
+import React, { Component } from 'react'
 import Fireplace_Restaurant from '../images/Fireplace.png'
 // import '../App.css';
 
 // import Mobile_Fireplace from '../images/Mobile_Fireplace.png'
 
-export default function ContactPage(props) {
+export default class ContactPage extends Component {
+    constructor() {
+        super()
+        this.state = {
+            // button_dinner: false,
+        }
+        this.onFormSubmit = this.onFormSubmit.bind(this)
+    }
+
+    onFormSubmit = async (event) => {
+        var form = event.target;
+        event.preventDefault()
+        form.reset();
+    }
+
+
+    // handleSubmit(e) {
+    //     if (e.target.id === "button_dinner") {    
+    //     }
+    // }
+
+    render() {
     return (
         <div className='contactpage-block' id='contactpage'>
             {/* <div className='contactpage-image'> */}
@@ -35,19 +57,19 @@ export default function ContactPage(props) {
                             <p className='allelse-contact'>If your plans should change, please reach out to us. <br></br><br></br><span className='Phone'>(212) 675-2081</span> <br></br>
                             </p>
                         </div>
+                        <form className='contactpage-form' onSubmit={this.onFormSubmit}>
                         <div className='input1'>
-                            <div className='name'>Name</div>
+                        <input className='name' placeholder="Name" />
                         </div>
                         <div className='input1'>
-                            <div className='name'>Email</div>
+                            <input className='name' placeholder="Email" />
                             <button className='contact-button'>SEND</button>
 
                         </div>
                         <div className='input2'>
-                            <div className='name'>Message</div>
-
+                            <input className='message' placeholder="Message" />
                         </div>
-
+                        </form>
                     </div>
 
                 </div>
@@ -57,4 +79,5 @@ export default function ContactPage(props) {
 
         </div>
     )
+}
 }
