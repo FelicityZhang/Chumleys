@@ -494,6 +494,32 @@ html {
   display: none;
 }
 
+.name {
+  width: 295px;
+  height: 42px;
+  margin-left: -13px;
+  margin-top: -10px;
+  border-radius: 3px;
+  border: solid thin #e48400;
+  font-size: 15px;
+  color: rgb(128, 127, 127);
+  line-height: -75px;
+  padding-left: 10px;
+}
+
+.message {
+  width: 295px;
+  height: 95px;
+  margin-left: -13px;
+  margin-top: -10px;
+  border-radius: 3px;
+  border: solid thin #e48400;
+  font-size: 15px;
+  color: rgb(128, 127, 127);
+  line-height: -75px;
+  padding-left: 10px;
+}
+
 
 .contact-holder {
   margin-left: -1px;
@@ -594,7 +620,6 @@ html {
   width: 286px;
   height: 34px;
   border-radius: 2px;
-  border: solid 1px #e48400;
   font-size: 12px;
   margin: 8px 0;
 }
@@ -605,7 +630,6 @@ html {
   width: 286px;
   height: 86px;
   border-radius: 2px;
-  border: solid 1px #e48400;
   font-size: 12px;
 
 }
